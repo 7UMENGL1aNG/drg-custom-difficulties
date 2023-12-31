@@ -14,7 +14,7 @@
     180,
     180
   ],
-  "ResupplyCost": 25,
+  "ResupplyCost": 40,
   "StartingNitra": 0,
   "ExtraLargeEnemyDamageResistance": [
     1.4,
