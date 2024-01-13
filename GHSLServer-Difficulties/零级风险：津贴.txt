@@ -2,8 +2,8 @@
   "Name": "零级风险：津贴",
   "Description": "零级风险",
   "MaxActiveCritters": 40,
-  "MaxActiveSwarmers": 60,
-  "MaxActiveEnemies": 60,
+  "MaxActiveSwarmers": 100,
+  "MaxActiveEnemies": 150,
   "ResupplyCost": 40,
   "StartingNitra": 0,
   "ExtraLargeEnemyDamageResistance": [
@@ -31,28 +31,28 @@
     0.4
   ],
   "EnemyDamageResistance": [
-    0.25,
-    0.4,
-    0.55,
-    0.7
+    0.1,
+    0.2,
+    0.3,
+    0.4
   ],
   "SmallEnemyDamageResistance": [
-    0.5,
-    0.5,
-    0.5,
-    0.5
+    0.1,
+    0.2,
+    0.3,
+    0.4
   ],
   "EnemyDamageModifier": [
-    0.25,
-    0.25,
-    0.25,
-    0.25
+    0.1,
+    0.1,
+    0.1,
+    0.1
   ],
   "EnemyCountModifier": [
-    0.15,
-    0.25,
-    0.45,
-    0.65
+    0.75,
+    1,
+    1.25,
+    1.5
   ],
   "EncounterDifficulty": [
     {
@@ -175,16 +175,16 @@
   },
   "MinPoolSize": 5,
   "MaxActiveElites": 0,
-  "EnvironmentalDamageModifier": 0.7,
-  "PointExtractionScalar": 0.7,
+  "EnvironmentalDamageModifier": 0.1,
+  "PointExtractionScalar": 1.5,
   "HazardBonus": 1.33,
   "FriendlyFireModifier": 0.1,
   "WaveStartDelayScale": 1,
   "SpeedModifier": 0.8,
   "AttackCooldownModifier": 0.8,
   "ProjectileSpeedModifier": 1,
-  "HealthRegenerationMax": 0.15,
-  "ReviveHealthRatio": 0.6,
+  "HealthRegenerationMax": 0.75,
+  "ReviveHealthRatio": 0.35,
   "EliteCooldown": 0,
   "EnemyDescriptors": {},
   "EnemyPool": {
@@ -219,7 +219,7 @@
   ],
   "EscortMule": {
     "FriendlyFireModifier": 0.1,
-    "BigHitDamageModifier": 0.5,
+    "BigHitDamageModifier": 0.1,
     "BigHitDamageReductionThreshold": 6,
     "NeutralDamageModifier": 0.1
   }
