@@ -1,5 +1,5 @@
 {
-  "Name": "零级风险：津贴",
+  "Name": "零级风险：无双",
   "Description": "零级风险",
   "MaxActiveCritters": 40,
   "MaxActiveSwarmers": 100,
